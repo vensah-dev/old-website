@@ -40,17 +40,17 @@ h1{
 }
 h2{
     font-family: "ubuntubold";
-    font-size: clamp(12px, 4vw, 32px);
+    font-size: clamp(10px, 4vw, 32px);
     display: inline;
 }
 h3{
     font-family: "ubuntulight";
-    font-size: clamp(12px, 4vw, 32px);
+    font-size: clamp(10px, 4vw, 32px);
 
 }
 h4{
     font-family: "ubuntulight";
-    font-size: clamp(8px, 4vw, 24px);
+    font-size: clamp(7px, 4vw, 24px);
 
 }
 h5{
@@ -117,7 +117,7 @@ Identifiers
 */
 /* title */
 #print, #string, #brackets{
-    font-size: clamp(20px, 4vw, 52px);
+    font-size: clamp(16px, 3vw, 52px);
 }
 #print{
     font-family: monospace;
