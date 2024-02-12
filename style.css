@@ -35,7 +35,7 @@ html, body{
 /* headers idk */
 h1{
     font-family: "ubuntubold";
-    font-size: clamp(16px, 4vw, 42px);
+    font-size: clamp(12px, 4vw, 42px);
     display: inline;
 }
 h2{
@@ -117,7 +117,7 @@ Identifiers
 */
 /* title */
 #print, #string, #brackets{
-    font-size: clamp(16px, 3vw, 52px);
+    font-size: clamp(22px, 3vw, 52px);
 }
 #print{
     font-family: monospace;
