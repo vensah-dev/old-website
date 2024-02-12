@@ -117,7 +117,7 @@ Identifiers
 */
 /* title */
 #print, #string, #brackets{
-    font-size: clamp(24px, 4vw, 52px);
+    font-size: clamp(23.5px, 4vw, 52px);
 }
 #print{
     font-family: monospace;
