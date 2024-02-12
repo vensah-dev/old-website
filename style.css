@@ -30,6 +30,8 @@ html, body{
     color: white;
     background-color: #2c2c2c;
     margin: 0;
+    scroll-behavior: smooth;
+
 }
 
 /* headers idk */
@@ -37,6 +39,7 @@ h1{
     font-family: "ubuntubold";
     font-size: clamp(16px, 4vw, 42px);
     display: inline;
+    color: #5A9D60;
 }
 h2{
     font-family: "ubuntubold";
@@ -70,9 +73,9 @@ a:hover{
 /* navigationBar */
 .topnav {
     overflow: hidden;
-    padding: 10px 30px;
     background-color: #2c2c2c;
-
+    position: fixed;
+    width: 100%;
 }
 .topnav a {
     font-family: "ubuntulight";
@@ -82,15 +85,13 @@ a:hover{
     padding: 8px 14px;
     text-decoration: none;
     font-size: 15px;
-    margin: 0px 5px;
+    margin: 10px;
 }
 .topnav a:hover {
-    border-radius: 25px 25px 25px 25px;
     font-weight: bolder;
     color: #5A9D60;
 }
 .topnav a.active {
-    border-radius: 25px 25px 25px 25px;
     font-weight: bold;
     color: white;
 }
@@ -111,6 +112,21 @@ a:hover{
 .grid-item{
     border-radius: 15px;
     align-self: center;
+}
+
+.section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
 }
 
 .icon{
@@ -150,11 +166,11 @@ Identifiers
 }
 
 /* profile pic */
-#profile{
+#logo{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    margin: 0;
+    margin: 10px 50px;
 }
 
 #project-pic{
@@ -170,7 +186,6 @@ Identifiers
 
 /* webpage sections */
 #about{
-    padding-top: 100px;
     margin: 0;
     background-color: #2c2c2c;
 }
@@ -185,6 +200,7 @@ Identifiers
 #projects{
     margin: 0;
     background-color: #1E1E1E;
+    overflow: scroll;
 }
 
 #footer{
