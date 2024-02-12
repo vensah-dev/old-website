@@ -35,17 +35,17 @@ html, body{
 /* headers idk */
 h1{
     font-family: "ubuntubold";
-    font-size: clamp(12px, 4vw, 42px);
+    font-size: clamp(16px, 4vw, 42px);
     display: inline;
 }
 h2{
     font-family: "ubuntubold";
-    font-size: clamp(10px, 4vw, 32px);
+    font-size: clamp(12px, 4vw, 32px);
     display: inline;
 }
 h3{
     font-family: "ubuntulight";
-    font-size: clamp(10px, 4vw, 32px);
+    font-size: clamp(12px, 4vw, 32px);
 
 }
 h4{
@@ -57,6 +57,7 @@ h5{
     font-family: "ubuntulight";
 } 
 
+/* hyper links */
 a{
     color: white;
     text-decoration: underline;
@@ -104,21 +105,24 @@ a:hover{
 /* grids */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: clamp(25px, 4vw, 200px);
-    grid-template-areas:
-    "image1 image1 image1 image1"
-    "text text text text";
-    display: flex;
-    justify-content: center;
+    grid-template-columns: auto;
+    row-gap: clamp(25px, 4vw, 150px);
 }
 .grid-item{
     border-radius: 15px;
     align-self: center;
 }
-/* 
+
+.icon{
+    width: 40px;
+    height: 40px;
+    padding: 0px 15px;
+    fill: white;
+}
+/*
 Identifiers
 */
+
 /* title */
 #print, #string, #brackets{
     font-size: clamp(22px, 4vw, 52px);
@@ -154,10 +158,10 @@ Identifiers
 }
 
 #project-pic{
-    width: 250px;
-    height: 40%;
+    width: 70%;
+    width: 70%;
     margin: 0;
-    border-radius: 10;
+    border-radius: 10px;
     overflow: clip;
 }
 
