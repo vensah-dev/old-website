@@ -28,7 +28,7 @@
 html, body{
     font-family: "ubunturegular";
     color: white;
-    background-color: #2c2c2c;
+    background-color: #1E1E1E;
     margin: 0;
       scroll-behavior: smooth;
 
@@ -73,7 +73,7 @@ a:hover{
 /* navigationBar */
 .topnav {
     overflow: hidden;
-    background-color: #2c2c2c;
+    background-color: #1E1E1E;
     position: fixed;
     width: 100%;
 
@@ -105,7 +105,7 @@ a:hover{
 }
 
 /* grids */
-.grid-container {
+.project-grid-container {
     display: grid;
     grid-template-columns: auto;
     row-gap: clamp(25px, 4vw, 150px);
@@ -131,9 +131,9 @@ a:hover{
 }
 
 .icon{
-    width: 40px;
-    height: 40px;
-    padding: 0px 15px;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
     fill: white;
 }
 /*
@@ -142,7 +142,7 @@ Identifiers
 
 /* title */
 #print, #string, #brackets{
-    font-size: clamp(22px, 4vw, 52px);
+    font-size: clamp(24.5px, 4vw, 62px);
 }
 #print{
     font-family: monospace;
@@ -161,7 +161,7 @@ Identifiers
 }
 
 #catch-phrase{
-    padding: clamp(25px, 4vw, 100px);
+    padding: 25px;
     color: #E0E0E1;
 
 }
@@ -188,7 +188,7 @@ Identifiers
 /* webpage sections */
 #about{
     margin: 0;
-    background-color: #2c2c2c;
+    background-color: #1E1E1E;
 }
 /* main content */
 #about-main{
@@ -197,12 +197,18 @@ Identifiers
     margin: auto;
 }
 
+#skills{
+    margin: 0;
+    background-color: #2c2c2c;
+    overflow: scroll;
+}
 
 #projects{
     margin: 0;
     background-color: #1E1E1E;
     overflow: scroll;
 }
+
 
 #footer{
     margin: 0;
