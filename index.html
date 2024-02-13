@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Venkatesh</title>
   <link rel="icon" type="jpg" href="images/ProfilePic.jpg">
 
@@ -12,44 +13,71 @@
 
 <body>
   <div class="topnav">
-
     <img id="logo" src="images/ProfilePic.jpg" alt="Profile">
 
-    <a href="#footer">Contact</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#about">About</a>
+    <button class="tabButton" onclick="displayContent(event, 'projects')">Projects</button>
+    <button class="tabButton" onclick="displayContent(event, 'skills')">Skills</button>
+    <button id="default" class="tabButton" onclick="displayContent(event, 'about')">About</button>
   </div>
 
-  <div id="about" class="section">
-    <div class="main">
-      <!--title-->
-      <div style="padding: 50px 0px 0px 0px;">
-        <h1 id="print">print</h1>
-        <h1 id="brackets">(</h1>
-        <h1 id="string">"Hi, I'm Venkatesh"</h1>
-        <h1 id="brackets">)</h1>
+  <div id="about" class="tabcontent container">
 
-        <h4 id="catch-phrase">AKA Vensah. The creator of SmartSheet, The Plantanator, </h4>
-
-      </div>
-      <div style="padding-bottom: 50px;">
-        <a href="https://github.com/vensah-dev"><img class="icon" src="images/Github.svg" alt="GitHub"></a>
-        <a href="https://instagram.com/vensah_dev"><img class="icon" src="images/Instagram.svg" alt="Instagram"></a>
-        <a href="https://www.credly.com/users/venkatesh-devendran"><img class="icon" src="images/Credly.svg" alt="Credly"></a>
-      </div>
-
+    <div class="section">
       <div>
+        <!--title-->
+        <div style="padding: 0px 0px 0px 0px;">
+          <h1 id="print">print</h1>
+          <h1 id="brackets">(</h1>
+          <h1 id="string">"Hi, I'm Venkatesh"</h1>
+          <h1 id="brackets">)</h1>
+
+          <h4 id="catch-phrase">AKA Vensah. The creator of SmartSheet, The Plantanator, </h4>
+
+        </div>
+        <div style="padding-bottom: 50px;">
+          <a href="https://github.com/vensah-dev"><img class="icon" src="images/Github.svg" alt="GitHub"></a>
+          <a href="https://instagram.com/vensah_dev"><img class="icon" src="images/Instagram.svg" alt="Instagram"></a>
+          <a href="https://www.credly.com/users/venkatesh-devendran"><img class="icon" src="images/Credly.svg"
+              alt="Credly"></a>
+
+          <a class = "scrolldown" href="#section2"><h1>⌄</h1></a>
+
+        </div>
       </div>
     </div>
+
+    <div id = "section2" class="section">
+      <div>
+        <!--title-->
+        <div style="padding: 0px 0px 0px 0px;">
+          <h1 id="print">print</h1>
+          <h1 id="brackets">(</h1>
+          <h1 id="string">"Hi, I'm Venkatesh"</h1>
+          <h1 id="brackets">)</h1>
+
+          <h4 id="catch-phrase">AKA Vensah. The creator of SmartSheet, The Plantanator, </h4>
+
+        </div>
+        <div style="padding-bottom: 50px;">
+          <a href="https://github.com/vensah-dev"><img class="icon" src="images/Github.svg" alt="GitHub"></a>
+          <a href="https://instagram.com/vensah_dev"><img class="icon" src="images/Instagram.svg" alt="Instagram"></a>
+          <a href="https://www.credly.com/users/venkatesh-devendran"><img class="icon" src="images/Credly.svg"
+              alt="Credly"></a>
+
+          <a class = "scrolldown" href="#section2"><h1>⌄</h1></a>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <div id="skills">
-    <div class="main">
+  <div id="skills" class="tabcontent">
+    <div>
       <p>
-      <h1>My Projects</h1>
+      <h1>Skills</h1>
       </p>
-      
+
       <div class="project-grid-container ">
         <div id="project" class="grid-item">
           <img id="project-pic" src="images/blue-bin.jpg" alt="GARBAJ">
@@ -76,10 +104,10 @@
     </div>
   </div>
 
-  <div id="projects">
-    <div class="main">
+  <div id="projects" class="tabcontent">
+    <div>
       <p>
-      <h1>My Projects</h1>
+      <h1>Projects</h1>
       </p>
       <div class="project-grid-container ">
         <div id="project" class="grid-item">
@@ -107,9 +135,7 @@
     </div>
   </div>
 
-  <div id="footer">
-  </div>
-
+  <script src="script.js"></script>
 </body>
 
 </html>
