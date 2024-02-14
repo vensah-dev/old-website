@@ -130,10 +130,9 @@ a:hover{
 
 /* main content */
 .tabcontent{
+    height: 100vh;
     text-align: center;
     justify-content: center;
-    padding: clamp(25px, 4vw, 50px);
-    margin: auto;
 }
 
 /* grids */
@@ -159,11 +158,10 @@ a:hover{
 }
 
 .container{
+    height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
-
-    height: 100vh;
 }
 
 .icon{
