@@ -176,7 +176,7 @@ Identifiers
 
 /* title */
 #print, #string, #brackets{
-    font-size: clamp(24.5px, 5vw, 82px);
+    font-size: clamp(23.5px, 5vw, 82px);
     font-family: "jetbrains_monoregular";
     display: inline;
 }
