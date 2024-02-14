@@ -39,13 +39,17 @@ html, body{
     background-color: #1E1E1E;
     margin: 0;
     scroll-behavior: smooth;
-    
+
     -ms-overflow-style: none;
     scrollbar-width: none;
 
 }
 
 html::-webkit-scrollbar {
+    display: none;
+}
+
+body::-webkit-scrollbar {
     display: none;
 }
 
@@ -169,6 +173,9 @@ a:hover{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+.container::-webkit-scrollbar {
+    display: none;
 }
 
 .icon{
