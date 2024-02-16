@@ -80,21 +80,6 @@ a:hover{
     text-decoration: underline;
 }
 
-.scrolldown{
-    font-family: "ubuntubold";
-    font-size: clamp(10px, 4vw, 26px);
-    text-align: center;
-    color: #ddd;
-    text-decoration: none;
-    margin: 0;
-    display: block;
-}
-.scrolldown:hover{
-    color: #5A9D60;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
 /* navigationBar */
 .topnav {
     overflow: hidden;
@@ -178,6 +163,9 @@ a:hover{
     padding: 0px 10px;
     fill: white;
 }
+.icon:hover{
+    fill: #5A9D60;
+}
 /*
 Identifiers
 */
@@ -185,7 +173,7 @@ Identifiers
 /* title */
 .subtitle{
     text-align: center;
-    padding: 25px;
+    padding: 0px 50px;
     color: #E0E0E1;
     text-decoration: none;
 }

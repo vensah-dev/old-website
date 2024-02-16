@@ -19,6 +19,10 @@ function displayContent(evt, divID) {
 
     //get the div or whatever that called this function to have the active class to make it look like it was clicked :>
     evt.currentTarget.className += " active";
-  }
+}
+
+function downArrow(evt){
+    evt.style.backgroundImage = "url('your-image-url')";
+}
 
 document.getElementById("default").click();
