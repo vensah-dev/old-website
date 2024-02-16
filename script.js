@@ -1,5 +1,6 @@
 //display the tab
 function displayContent(evt, divID) {
+    console.log("venkatesh is the best")
     var i, tabcontent, tabButtons;
 
     //get all the tab contents
@@ -21,6 +22,3 @@ function displayContent(evt, divID) {
   }
 
 document.getElementById("default").click();
-
-
-

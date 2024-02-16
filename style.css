@@ -44,11 +44,9 @@ html, body{
     scrollbar-width: none;
 
 }
-
 html::-webkit-scrollbar {
     display: none;
 }
-
 body::-webkit-scrollbar {
     display: none;
 }
@@ -91,7 +89,7 @@ a:hover{
 
 .scrolldown{
     font-family: "ubuntubold";
-    font-size: clamp(16px, 4vw, 42px);
+    font-size: clamp(10px, 4vw, 26px);
     text-align: center;
     color: #ddd;
     font-style: italic;
@@ -171,7 +169,7 @@ a:hover{
 .container{
     height: 100vh;
     scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+    overflow: hidden;
     scroll-behavior: smooth;
 }
 .container::-webkit-scrollbar {
@@ -181,7 +179,7 @@ a:hover{
 .icon{
     width: 30px;
     height: 30px;
-    padding: 10px;
+    padding: 0px 10px;
     fill: white;
 }
 /*
@@ -189,26 +187,25 @@ Identifiers
 */
 
 /* title */
-#print, #string, #brackets{
-    font-size: clamp(22px, 5vw, 82px);
-    font-family: "jetbrains_monoregular";
-    display: inline;
-}
-#print{
-    color: #7572B9;
-}
-#brackets{
-    color: #AEB0B7;    
-}
-#string{
-    color: #5A9D60;
-}
-
 #catch-phrase{
     text-align: center;
     padding: 25px;
     color: #E0E0E1;
     text-decoration: none;
+}
+.intro-title{
+    font-size: clamp(22px, 5vw, 82px);
+    font-family: "jetbrains_monoregular";
+    display: inline;
+}
+.purple{
+    color: #7572B9;
+}
+.dark-white{
+    color: #AEB0B7;    
+}
+.green{
+    color: #5A9D60;
 }
 
 /* profile pic */
@@ -246,7 +243,6 @@ Identifiers
     margin: 0;
     overflow: scroll;
 }
-
 
 #footer{
     margin: 0;
