@@ -44,12 +44,6 @@ html, body{
     scrollbar-width: none;
 
 }
-html::-webkit-scrollbar {
-    display: none;
-}
-body::-webkit-scrollbar {
-    display: none;
-}
 
 /* headers idk */
 h1{
@@ -68,8 +62,7 @@ h3{
 }
 h4{
     font-family: "ubuntulight";
-    font-size: clamp(5px, 4vw, 24px);
-
+    font-size: clamp(5px, 2vw, 24px);
 }
 h5{
     font-family: "ubuntulight";
@@ -92,7 +85,6 @@ a:hover{
     font-size: clamp(10px, 4vw, 26px);
     text-align: center;
     color: #ddd;
-    font-style: italic;
     text-decoration: none;
     margin: 0;
     display: block;
@@ -142,6 +134,10 @@ a:hover{
     height: 100vh;
     text-align: center;
     justify-content: center;
+    overflow-y: hidden;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 /* grids */
@@ -169,7 +165,7 @@ a:hover{
 .container{
     height: 100vh;
     scroll-snap-type: y mandatory;
-    overflow: hidden;
+    overflow-y: scroll;
     scroll-behavior: smooth;
 }
 .container::-webkit-scrollbar {
@@ -187,7 +183,7 @@ Identifiers
 */
 
 /* title */
-#catch-phrase{
+.subtitle{
     text-align: center;
     padding: 25px;
     color: #E0E0E1;
