@@ -36,7 +36,7 @@
 html, body{
     font-family: "ubunturegular";
     color: white;
-    background-color: #1E1E1E;
+    background-color: #141414;
     margin: 0;
     scroll-behavior: smooth;
 
@@ -83,7 +83,7 @@ a:hover{
 /* navigationBar */
 .topnav {
     overflow: hidden;
-    background-color: #1E1E1E;
+    background-color: #1a1a1a;
     position: fixed;
     width: 100%;
 
@@ -156,9 +156,9 @@ a:hover{
 }
 
 .icon{
-    width: 30%;
-    height: 30%;
-    padding: 0px 10px;
+    width: 3%;
+    height: 3%;
+    padding: 0px 1%;
     fill: white;
 }
 .icon:hover{
@@ -169,17 +169,17 @@ Identifiers
 */
 
 /* title */
-.subtitle{
-    font-family: "ubuntulight";
-    text-align: center;
-    padding: 0px 50px;
-    color: #E0E0E1;
-    text-decoration: none;
-}
 .intro-title{
     font-size: clamp(24px, 5vw, 82px);
     font-family: "jetbrains_monoregular";
     display: inline;
+}
+.subtitle{
+    font-family: "ubuntulight";
+    text-align: center;
+    padding: 0px 5%;
+    color: #E0E0E1;
+    text-decoration: none;
 }
 .purple{
     color: #7572B9;
