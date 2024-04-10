@@ -39,7 +39,6 @@ html, body{
     background-color: #141414;
     margin: 0;
 
-    scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
 
@@ -48,21 +47,17 @@ html, body{
 /* headers idk */
 h1{
     font-family: "ubuntubold";
-    font-size: clamp(24px, 3vw, 52px);
 }
 h2{
     font-family: "ubuntubold";
-    font-size: clamp(12px, 3vw, 32px);
     display: inline;
 }
 h3{
     font-family: "ubuntulight";
-    font-size: clamp(12px, 3vw, 32px);
 
 }
 h4{
     font-family: "ubuntulight";
-    font-size: clamp(5px, 2vw, 24px);
 }
 h5{
     font-family: "ubuntulight";
@@ -85,6 +80,7 @@ a:hover{
     background-color: #1a1a1a;
     width: 100%;
     position: fixed;
+    margin: 0;
 }
 .tabButton {
     font-family: "ubuntulight";
@@ -116,11 +112,7 @@ a:hover{
     height: 100vh;
     text-align: center;
     justify-content: center;
-    overflow-y: hidden;
 
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
 
 }
 
@@ -137,20 +129,20 @@ a:hover{
 
 }
 
-.container{
+.about-container{
     height: 100vh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-.container::-webkit-scrollbar {
+.about-container::-webkit-scrollbar {
     display: none;
     scroll-behavior: smooth;
 }
 
 .icon{
-    width: clamp(15px, 4vw, 35px);
-    height: clamp(15px, 4vw, 35px);
+    width: clamp(28px, 4vw, 35px);
+    height: clamp(28px, 4vw, 35px);
     padding: 0px 1%;
     opacity: 0.85;
 }
@@ -170,7 +162,6 @@ a:hover{
 
 .project{
     width: 75%;
-    height: 30%;
     border-radius: 15px;
     overflow: hidden;
     margin-bottom: 10%;
@@ -182,11 +173,6 @@ Identifiers
 */
 
 /* title */
-.intro-title{
-    font-size: clamp(24px, 5vw, 82px);
-    font-family: "jetbrains_monoregular";
-    display: inline;
-}
 .subtitle{
     font-family: "ubuntulight";
     text-align: center;
@@ -194,13 +180,29 @@ Identifiers
     color: #E0E0E1;
     text-decoration: none;
 }
+
+.function{
+    display: none;
+}
+.brackets{
+    display: none;
+}
 .purple{
+    display: inline;
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
     color: #7572B9;
 }
 .dark-white{
+    display: inline;
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
     color: #AEB0B7;    
 }
 .green{
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
+    display: inline;
     color: #5A9D60;
 }
 
@@ -223,18 +225,39 @@ Identifiers
 }
 
 #skills{
+    padding: clamp(50px, 4vw, 100px) 0;
 
-    padding: clamp(50px, 4vw, 100px) 0px 0px 0px;
-    overflow: scroll;
 }
 
 #projects{
-    padding: clamp(50px, 4vw, 100px) 0px 0px 0px;
-    overflow: scroll;
-
+    padding: clamp(50px, 4vw, 100px) 0;
 }
 
 #footer{
     margin: 0;
     background-color: #2c2c2c;
 }
+
+
+@media only screen and (min-width: 768px) {
+    .function{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #7572B9;
+    }
+    .brackets{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #AEB0B7;    
+    }
+    .green{
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        display: inline;
+        color: #5A9D60;
+    }
+}
+
+
