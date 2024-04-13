@@ -121,6 +121,17 @@ a:hover{
 
 }
 
+.about-container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.about-container::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
 .section{
     height: 100vh;
     display: flex;
@@ -134,16 +145,6 @@ a:hover{
 
 }
 
-.about-container{
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-.about-container::-webkit-scrollbar {
-    display: none;
-    scroll-behavior: smooth;
-}
 
 .icon{
     width: clamp(28px, 4vw, 35px);
@@ -172,6 +173,7 @@ a:hover{
     margin-bottom: 10%;
 
 }
+
 
 /*
 Identifiers
