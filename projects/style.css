@@ -1,0 +1,263 @@
+/* set font */
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('fonts/ubuntu-light-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'jetbrains_monoregular';
+    src: url('fonts/jetbrainsmono-variablefont_wght-webfont.woff2') format('woff2'),
+         url('fonts/jetbrainsmono-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* zero margin */
+html, body{
+    font-family: "ubunturegular";
+    color: white;
+    background-color: #141414;
+    margin: 0;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+/* headers idk */
+h1{
+    font-family: "ubuntubold";
+}
+h2{
+    font-family: "ubuntubold";
+    display: inline;
+}
+h3{
+    font-family: "ubuntulight";
+
+}
+h4{
+    font-family: "ubuntulight";
+}
+h5{
+    font-family: "ubuntulight";
+} 
+
+/* hyper links */
+a{
+    color: #ddd;
+    font-style: italic;
+    text-decoration: none;
+}
+a:hover{
+    color: #5A9D60;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* navigationBar */
+.topnav {
+    background-color: #1a1a1a;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+}
+.tabButton {
+    font-family: "ubuntulight";
+    text-align: center;
+    font-size: 15px;
+
+    color: #E0E0E1;
+    background-color: #00000000;
+
+    border: none;
+
+    float: right;
+    
+    padding: 8px 14px;
+    margin: 10px;
+}
+.tabButton:hover {
+    background-color: #00000000;
+    color: #5A9D60;
+}
+.tabButton.active {
+    background-color: #00000000;
+    color: #5A9D60;
+}
+
+/* main content */
+.tabcontent{
+
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    scroll-snap-align: start;
+    scroll-behavior: smooth;
+    margin: 0 5%;
+
+}
+
+.about-container{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.about-container::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+}
+
+.icon{
+    width: clamp(28px, 4vw, 35px);
+    height: clamp(28px, 4vw, 35px);
+    padding: 0px 1%;
+    opacity: 0.85;
+}
+.icon:hover{
+    opacity: 1.0;
+}
+
+.arrow{
+    width: 3%;
+    height: 3%;
+    padding: 0px 1%;
+    fill: white;
+}
+.arrow:hover{
+    fill: #5A9D60;
+}
+
+.project{
+    width: 75%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 10%;
+
+}
+
+/*
+Identifiers
+*/
+
+/* title */
+.subtitle{
+    font-family: "ubuntulight";
+    text-align: center;
+    padding: 0px 5%;
+    color: #E0E0E1;
+    text-decoration: none;
+}
+
+.function{
+    display: none;
+}
+.brackets{
+    display: none;
+}
+.purple{
+    display: inline;
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
+    color: #7572B9;
+}
+.dark-white{
+    display: inline;
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
+    color: #AEB0B7;    
+}
+.green{
+    font-size: clamp(28px, 3vw, 82px);
+    font-family: "jetbrains_monoregular";
+    display: inline;
+    color: #5A9D60;
+}
+
+/* profile pic */
+#logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+/* grids */
+
+
+/* webpage sections */
+#about{
+    text-align: center;
+    margin: 0;
+
+}
+
+#skills{
+    padding: clamp(50px, 4vw, 100px) 0;
+
+}
+
+#projects{
+    padding: clamp(50px, 4vw, 100px) 0;
+}
+
+#footer{
+    margin: 0;
+    background-color: #2c2c2c;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .function{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #7572B9;
+    }
+    .brackets{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #AEB0B7;    
+    }
+    .green{
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        display: inline;
+        color: #5A9D60;
+    }
+}
+
+
