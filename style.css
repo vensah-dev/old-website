@@ -201,7 +201,7 @@ Identifiers
 }
 .green{
     font-size: clamp(28px, 3vw, 82px);
-    font-family: "monospace";
+    font-family: "jetbrains_monoregular";
     display: inline;
     color: #5A9D60;
 }
@@ -237,7 +237,6 @@ Identifiers
     margin: 0;
     background-color: #2c2c2c;
 }
-Hi Venkatesh
 
 
 @media only screen and (min-width: 768px) {
@@ -255,7 +254,7 @@ Hi Venkatesh
     }
     .green{
         font-size: clamp(36px, 3vw, 82px);
-        font-family: "monaco";
+        font-family: "jetbrains_monoregular";
         display: inline;
         color: #5A9D60;
     }
