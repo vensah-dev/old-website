@@ -182,22 +182,22 @@ a:hover{
 
 }
 .square{
-    width: 250; 
-    height: 250; 
+    width: 250px; 
+    height: 250px; 
     object-fit: cover;
     border-radius: 15px;
     overflow: hidden;
 }
 .rectangle{
-    width: 500; 
-    height: 250; 
+    width: 500px; 
+    height: 250px; 
     object-fit: cover;
     border-radius: 15px;
     overflow: hidden;
 }
 .full-rectangle{
-    width: 830; 
-    height: 467; 
+    width: 830px; 
+    height: 467px; 
     object-fit: cover;
     border-radius: 15px;
     overflow: hidden;
