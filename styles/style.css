@@ -305,6 +305,19 @@ Identifiers
 
 
 @media only screen and (min-width: 1100px){
+
+    .function{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #7572B9;
+    }
+    .brackets{
+        display: inline;
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        color: #AEB0B7;    
+    }
     
     .project-grid{
         display: grid;
