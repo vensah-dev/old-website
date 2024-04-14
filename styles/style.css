@@ -193,7 +193,7 @@ a:hover{
 
 }
 .square:hover{
-    opacity: 0.65;
+    opacity: 0.85;
     scale: 1.01;
 }
 
@@ -209,7 +209,7 @@ a:hover{
     transition: opacity 0.25s ease, scale 0.25s ease;
 }
 .rectangle:hover{
-    opacity: 0.65;
+    opacity: 0.85;
     scale: 1.01;
 }
 
@@ -225,7 +225,7 @@ a:hover{
     transition: opacity 0.25s ease, scale 0.25s ease;
 }
 .full-rectangle:hover{
-    opacity: 0.65;
+    opacity: 0.85;
     scale: 1.01;
 }
 .overlay{
