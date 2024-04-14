@@ -176,7 +176,6 @@ a:hover{
 .project-details{
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 10%;
 
 }
 
@@ -239,7 +238,7 @@ Identifiers
 
 #scrollable{
     padding: clamp(50px, 4vw, 150px) 0;
-    margin: 0 250px;
+    margin: 0 12.5%;
 }
 
 #footer{
