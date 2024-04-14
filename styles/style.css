@@ -219,6 +219,10 @@ Identifiers
     color: #5A9D60;
 }
 
+.wrapper{
+    margin: 0 250px;
+}
+
 /* profile pic */
 #logo{
     width: 30px;
