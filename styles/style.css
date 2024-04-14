@@ -182,9 +182,9 @@ a:hover{
 
 }
 .square{
+    width: 250px; 
+    height: 250px; 
     object-fit: cover;
-    width: clamp(200px, 1000px ,250px); 
-    height: clamp(200px, 1000px ,250px); 
     border-radius: 15px;
 
     opacity: 1.0;
@@ -198,9 +198,9 @@ a:hover{
 }
 
 .rectangle{
+    width: 500px; 
+    height: 250px; 
     object-fit: cover;
-    width: clamp(400px, 1000px ,500px); 
-    height: clamp(200px, 1000px ,250px); 
     border-radius: 15px;
     overflow: hidden;
 
@@ -214,8 +214,8 @@ a:hover{
 }
 
 .full-rectangle{
-    width: clamp(780px, 1000px, 830px); ; 
-    height: clamp(417px, 1000px, 467px); 
+    width: 830px; 
+    height: 467px; 
     object-fit: cover;
     border-radius: 15px;
     margin-top: 20px;
