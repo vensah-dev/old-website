@@ -219,10 +219,6 @@ Identifiers
     color: #5A9D60;
 }
 
-.wrapper{
-    margin: 0 250px;
-}
-
 /* profile pic */
 #logo{
     width: 30px;
@@ -243,7 +239,7 @@ Identifiers
 
 #scrollable{
     padding: clamp(50px, 4vw, 150px) 0;
-    margin: auto;
+    margin: 0 250px;
 }
 
 #footer{
