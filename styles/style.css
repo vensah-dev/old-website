@@ -177,30 +177,29 @@ a:hover{
 .project-grid{
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 250px 830px;
-    justify-content: space-between;
+    gap: 40px;
+    justify-content: center;
 
 }
 .square{
-    width: 250px; 
-    height: 250px; 
     object-fit: cover;
+    width: clamp(200px, 1000px ,250px); 
+    height: clamp(200px, 1000px ,250px); 
     border-radius: 15px;
-    overflow: hidden;
 }
 .rectangle{
-    width: 500px; 
-    height: 250px; 
     object-fit: cover;
+    width: clamp(400px, 1000px ,500px); 
+    height: clamp(200px, 1000px ,250px); 
     border-radius: 15px;
     overflow: hidden;
 }
 .full-rectangle{
-    width: 830px; 
-    height: 467px; 
+    width: clamp(780px, 1000px, 830px); ; 
+    height: clamp(417px, 1000px, 467px); 
     object-fit: cover;
     border-radius: 15px;
-    overflow: hidden;
+    margin-top: 40px;
 }
 
 
@@ -216,6 +215,14 @@ Identifiers
     color: #E0E0E1;
     text-decoration: none;
 }
+.caption{
+    font-family: "ubuntulight";
+    text-align: justify;
+    padding: 0px 5%;
+    color: #E0E0E1;
+    text-decoration: none;
+}
+
 
 .function{
     display: none;
@@ -262,7 +269,7 @@ Identifiers
 
 #scrollable{
     padding: clamp(50px, 4vw, 150px) 0;
-    margin: 0 12.5%;
+    margin: 0 calc((100% - 870px)/2);
 }
 
 #footer{
