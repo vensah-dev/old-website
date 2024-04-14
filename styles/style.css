@@ -318,6 +318,12 @@ Identifiers
         font-family: "jetbrains_monoregular";
         color: #AEB0B7;    
     }
+    .green{
+        font-size: clamp(36px, 3vw, 82px);
+        font-family: "jetbrains_monoregular";
+        display: inline;
+        color: #5A9D60;
+    }
     
     .project-grid{
         display: grid;
