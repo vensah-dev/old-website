@@ -173,10 +173,31 @@ a:hover{
     margin-bottom: 10%;
 
 }
-.project-details{
+
+.project-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 250px 830px;
+    justify-content: space-between;
+
+}
+.square{
+    width: 250; 
+    height: 250; 
     border-radius: 15px;
     overflow: hidden;
-
+}
+.rectangle{
+    width: 500; 
+    height: 250; 
+    border-radius: 15px;
+    overflow: hidden;
+}
+.full-rectangle{
+    width: 830; 
+    height: 467; 
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 
