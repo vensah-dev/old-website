@@ -58,10 +58,16 @@ h3{
 }
 h4{
     font-family: "ubuntulight";
+    text-decoration: none;
+
 }
 h5{
     font-family: "ubuntulight";
 } 
+
+a{
+    text-decoration: none;
+}
 
 /* hyper links */
 .link{
@@ -86,7 +92,7 @@ h5{
 .tabButton {
     font-family: "ubuntulight";
     text-align: center;
-    font-size: 15px;
+    font-size: clamp(12px, 3vw, 15px);
 
     text-decoration: none;
     font-style: normal;
@@ -119,7 +125,6 @@ h5{
     text-align: center;
     justify-content: center;
 
-
 }
 
 .about-container{
@@ -142,37 +147,23 @@ h5{
 
     scroll-snap-align: start;
     scroll-behavior: smooth;
-    margin: 0 5%;
+    margin: 0 15%;
 
 }
-
 
 .icon{
     width: clamp(28px, 4vw, 35px);
     height: clamp(28px, 4vw, 35px);
     padding: 0px 1%;
-    opacity: 0.85;
     scale: 1.0;
-    transition: scale 0.25s ease, opacity 0.25s ease;
+    fill: white;
+
+    transition: scale 0.25s ease, fill 0.25s ease;
 
 }
 .icon:hover{
-    opacity: 1.0;
-    scale: 1.05;
-
-}
-
-.arrow{
-    width: 3%;
-    height: 3%;
-    padding: 0px 1%;
-    fill: white;
-    scale: 1.0;
-    transition: scale 0.25s ease;
-}
-.arrow:hover{
     fill: #5A9D60;
-    scale: 1.1;
+    scale: 1.08;
 }
 
 .project{
@@ -244,9 +235,10 @@ Identifiers
 .subtitle{
     font-family: "ubuntulight";
     text-align: center;
-    padding: 0px 5%;
+    padding: 0 5%;
     color: #E0E0E1;
     text-decoration: none;
+    line-height: 30px;
 }
 .caption{
     font-family: "ubuntulight";
@@ -314,6 +306,10 @@ Identifiers
 
 
 @media only screen and (min-width: 1100px){
+
+    .tabButton {
+        font-size: 15px;
+    }
 
     .function{
         display: inline;
