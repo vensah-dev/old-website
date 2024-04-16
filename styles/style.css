@@ -330,13 +330,14 @@ Identifiers
         color: #5A9D60;
     }
     
-    .project-grid{
+    .square-grid{
         display: grid;
         grid-template-columns: auto auto auto;
         gap: 40px;
         justify-content: center;
     
     }
+    
     .square{
         width: 250px; 
         height: 250px; 
@@ -397,13 +398,13 @@ Identifiers
     }
 
     .overlay{
+        height: 100%;
+        width: 100%;
+        
         display: flex;
         align-items: flex-end;
 
         justify-content:center;
-
-        height: 100%;
-        width: 100%;
 
         text-shadow: 0 0 15px #ddd;
         text-align: center;
