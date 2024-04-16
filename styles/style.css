@@ -182,8 +182,8 @@ a:hover{
 
 }
 .square{
-    width: 108px; 
-    height: 108px; 
+    width: 96px; 
+    height: 96px; 
     object-fit: cover;
     border-radius: 10px;
 
@@ -192,8 +192,8 @@ a:hover{
 
 }
 .rectangle{
-    width: 216px; 
-    height: 108px; 
+    width: 192px; 
+    height: 96px; 
     object-fit: cover;
     border-radius: 10px;
     overflow: hidden;
@@ -202,8 +202,8 @@ a:hover{
     scale: 1.01;
 }
 .full-rectangle{
-    width: 360px; 
-    height: 202px; 
+    width: 320px; 
+    height: 180px; 
     object-fit: cover;
     border-radius: 10px;
     margin-top: 8.5px;
@@ -293,7 +293,7 @@ Identifiers
 
 #scrollable{
     padding: clamp(50px, 4vw, 150px) 0;
-    margin: 0 calc((100% - 360px)/2);
+    margin: 0 calc((100% - 320px)/2);
     padding-top: 100px;
     padding-bottom: 25px;
 }
