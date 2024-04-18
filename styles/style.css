@@ -377,7 +377,7 @@ Identifiers
         object-fit: cover;
         border-radius: 15px;
     
-        opacity: 0.85;
+        opacity: 0.9;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     
@@ -394,7 +394,7 @@ Identifiers
         border-radius: 15px;
         overflow: hidden;
     
-        opacity: 0.85;
+        opacity: 0.9;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     }
@@ -410,7 +410,7 @@ Identifiers
         border-radius: 15px;
         margin-top: 13px;
     
-        opacity: 0.85;
+        opacity: 0.9;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     }
@@ -420,13 +420,11 @@ Identifiers
     }
 
     .glow{
-        opacity: 0.9;
         box-shadow: 0 0 0 0 #ffffff38;
         transition: opacity 0.25s ease, scale 0.25s ease, box-shadow 0.5s ease;
 
     }
     .glow:hover{
-        opacity: 1;
         box-shadow: 0 0 50px 0px #ffffff3f;
     }
 
