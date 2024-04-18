@@ -377,13 +377,13 @@ Identifiers
         object-fit: cover;
         border-radius: 15px;
     
-        opacity: 1.0;
+        opacity: 0.85;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     
     }
     .square:hover{
-        opacity: 0.8;
+        opacity: 1;
         scale: 1.02;
     }
     
@@ -394,12 +394,12 @@ Identifiers
         border-radius: 15px;
         overflow: hidden;
     
-        opacity: 1.0;
+        opacity: 0.85;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     }
     .rectangle:hover{
-        opacity: 0.8;
+        opacity: 1;
         scale: 1.02;
     }
     
@@ -410,12 +410,12 @@ Identifiers
         border-radius: 15px;
         margin-top: 13px;
     
-        opacity: 1.0;
+        opacity: 0.85;
         scale: 1.0;
         transition: opacity 0.25s ease, scale 0.25s ease;
     }
     .full-rectangle:hover{
-        opacity: 0.8;
+        opacity: 1;
         scale: 1.02;
     }
 
