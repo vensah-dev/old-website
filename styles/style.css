@@ -39,6 +39,8 @@ html, body{
     background-color: #0f0f0f;
     margin: 0;
 
+    scroll-behavior: smooth;
+
     -ms-overflow-style: none;
     scrollbar-width: none;
 
@@ -57,9 +59,10 @@ h3{
 
 }
 h4{
-    font-family: "ubuntulight";
     text-decoration: none;
-
+    font-family: 'ubuntulight';
+    font-weight: lighter;
+    padding: 0 25px;
 }
 h5{
     font-family: "ubuntulight";
@@ -122,6 +125,7 @@ a{
 
 /* main content */
 .tabcontent{
+    scroll-behavior: smooth;
 
     height: 100vh;
     text-align: center;
@@ -134,10 +138,10 @@ a{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-behavior: smooth;
+
 }
 .about-container::-webkit-scrollbar {
     display: none;
-    scroll-behavior: smooth;
 }
 
 .section{
@@ -148,8 +152,8 @@ a{
     justify-content: center;
 
     scroll-snap-align: start;
-    scroll-behavior: smooth;
     margin: 0 15%;
+    scroll-behavior: smooth;
 
 }
 
@@ -251,6 +255,10 @@ a{
     opacity: 1;
 }
 
+.rectangle.overlay{
+    opacity: 0;
+}
+
 
 
 /*
@@ -259,12 +267,13 @@ Identifiers
 
 /* title */
 .subtitle{
-    font-family: "ubuntulight";
+    font-family: "ubuntulight";        
+    font-weight: lighter;
+    font-size: 15px;
     text-align: center;
     padding: 0 5%;
     color: #E0E0E1;
     text-decoration: none;
-    line-height: 30px;
 }
 .caption{
     font-family: "ubuntulight";
@@ -338,6 +347,16 @@ Identifiers
 
 
 @media only screen and (min-width: 1100px){
+    .subtitle{
+        font-family: "ubuntulight";
+        font-weight: lighter;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 5%;
+        color: #E0E0E1;
+        text-decoration: none;
+        line-height:25px;
+    }
 
     .tabButton {
         font-size: 15px;
@@ -437,14 +456,13 @@ Identifiers
 
         position: absolute;
 
-        top: -10px;
 
 
 
         justify-content: center;
         fill: white;
 
-        font-size: 14px;
+        font-size: 13px;
         padding-bottom: 52px;
         font-family: "ubuntulight";
         text-shadow: 0px 0px 5px #000000;
