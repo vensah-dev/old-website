@@ -172,19 +172,19 @@ a{
     scale: 1.08;
 }
 
-.project{
-    width: 75%;
-    border-radius: 15px;
-    overflow: hidden;
-    margin-bottom: 10%;
-
+.project-grid{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 25px;
 }
-
 .square-grid{
     display: grid;
     grid-template-columns: auto auto ;
     gap: 17px;
     justify-content: center;
+    padding-bottom: 25px;
 
 }
 .project-square-grid{
@@ -368,6 +368,7 @@ Identifiers
 
 
 @media only screen and (min-width: 1100px){
+
     .subtitle{
         font-family: "ubuntulight";
         font-weight: lighter;
@@ -403,12 +404,22 @@ Identifiers
         display: inline;
         color: #5A9D60;
     }
+
+    .project-grid{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
     
     .square-grid{
         display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 20px;
+        grid-template-columns: auto auto ;
+        gap: 17px;
         justify-content: center;
+        padding-bottom: 100px;
+    
     }
     .project-square-grid{
         display: grid;
