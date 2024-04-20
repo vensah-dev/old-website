@@ -1,6 +1,6 @@
 # Vensah-dev.github.io
 
-Welcome to my protfolio. This website was created ina few weeks while learning HTML and CSS even though the commits say it was around 2-3 months ago as i had gotten caught up with other work like uhm sleeping?
+Welcome to my protfolio. This website was created in a few weeks while learning HTML and CSS even though the commits say it was around 2-3 months ago as I had gotten caught up with other work like uhm sleeping?
 
 ## About
 The about page is the first page you will land on when you open my website*. The about page can be scrolled through like slides to learn more about me, the effect works best on chrome and for some reason not arc even though they're both chromium based. 
