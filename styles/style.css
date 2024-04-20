@@ -177,7 +177,7 @@ a{
     grid-template-columns: auto;
     gap: 30px;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
 }
 .square-grid{
     display: grid;
@@ -229,10 +229,12 @@ a{
     align-items: center;
     justify-content: center;
 
-    width: 192px; 
+    width: 212px; 
     height: 96px; 
     object-fit: cover;
     border-radius: 15px;
+
+    margin-right: -15px;
 
 
     opacity: 0.85;
